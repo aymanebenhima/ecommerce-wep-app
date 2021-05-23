@@ -9,19 +9,19 @@
 					</h4>
 
 					<ul>
-						<li class="p-b-10">
-							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Shirts
-							</a>
-						</li>
+					<?php 
+						$sql = "SELECT * FROM categories";
+						$categories = $connect->query($sql);
 
-						<li class="p-b-10">
-							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Pants
-							</a>
-						</li>
-
+						while ($category = $categories->fetch_assoc()) :
 						
+					?>
+						<li class="p-b-10">
+							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+							<?php echo $category['name']; ?>
+							</a>
+						</li>
+							<?php endwhile; ?>
 					</ul>
 				</div>
 
