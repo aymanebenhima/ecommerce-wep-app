@@ -47,10 +47,6 @@
 								<a href="product.php">Shop</a>
 							</li>
 
-							<li class="label1" data-label1="hot">
-								<a href="shoping-cart.php">Features</a>
-							</li>
-
 							<li>
 								<a href="about.php">About</a>
 							</li>
@@ -143,9 +139,6 @@
 			<ul class="main-menu-m">
 				<li>
 					<a href="index.php">Home</a>
-					<span class="arrow-main-menu-m">
-						<i class="fa fa-angle-right" aria-hidden="true"></i>
-					</span>
 				</li>
 
 				<li>
